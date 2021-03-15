@@ -4,7 +4,7 @@ export default function App(props) {
 	let state=useSelector(s=>s)
 	let dispatch=useDispatch()
 
-	let {admin,faculty,student,course,slots,batch,fid,sid,cid,slot_id,dt}=state
+	let {admin,faculty,student,courses,slots,batch,fid,sid,cid,slot_id,dt}=state
 
 	const del=id=>{
 		batch=batch.filter(x=>x.id!==id)
