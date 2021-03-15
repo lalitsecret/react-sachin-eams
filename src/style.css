@@ -1,3 +1,116 @@
-h1, p {
-  font-family: Lato;
+body
+{
+	margin:0;
+	font-family: calibri;
+	background: tomato;
+}
+input,button,a
+{
+	padding: 10px;
+	border:0;
+	text-decoration: none;
+	outline:0;
+}
+
+.login
+{
+	padding: 2%;
+	width: 30%;
+	background: white;
+	margin:2% auto;
+	border-top: 20px solid #000;
+	box-shadow:0 10px 10px black;
+}
+.login h3
+{
+	text-align: center;
+}
+.login .line
+{
+	display: flex;
+	align-items: center;
+}
+.login .line input
+{
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+.login button
+{
+	width: 100%;
+	background: black;
+	color:white;
+	margin-top: 10px;
+}
+
+
+.header
+{
+	line-height: 10vh;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color:white;
+}
+.header h1
+{
+	margin:0;
+}
+.header a
+{
+	color:silver;
+}
+.header a:hover
+{
+	color:white;
+}
+
+.footer
+{
+	line-height: 10vh;
+	background: black;
+	color:white;
+	text-align:center;
+}
+
+.container
+{
+	height: 80vh;
+	overflow: auto;
+}
+
+table
+{
+	width: 100%;
+	background: white;
+	text-align: center;
+	box-shadow:0 10px 10px black;
+}
+thead
+{
+	background: black;
+	color:white;
+}
+.wrapper
+{
+	padding: 0 5%;
+}
+
+.edit
+{
+	background: orange;
+	color:white;
+}
+
+.del
+{
+	background: red;
+	color:white;
+}
+
+form button
+{
+	background:#333;
+	color:white;
 }

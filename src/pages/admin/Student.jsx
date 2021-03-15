@@ -29,7 +29,7 @@ export default function App(props) {
   return (
     	<div className="wrapper">
     		<datalist id="abc">
-    			<option value={x.name}>{x.name}/{x.price}/{x.days}</option>
+    			{b.map(x=><option value={x.name}>{x.name}/{x.price}/{x.days}</option>)}
     		</datalist>
     		<form className="form" onSubmit={insert}>
     			<h3>new student</h3>

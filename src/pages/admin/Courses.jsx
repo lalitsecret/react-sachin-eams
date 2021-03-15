@@ -27,9 +27,7 @@ export default function App(props) {
 
   return (
     	<div className="wrapper">
-    		<datalist id="abc">
-    			<option value={x.name}>{x.name}/{x.price}/{x.days}</option>
-    		</datalist>
+    		
     		<form className="form" onSubmit={insert}>
     			<h3>new courses</h3>
     			<input placeholder="name" value={ob1.name} onChange={e=>setob1({...ob1,name:e.target.value})}/>
