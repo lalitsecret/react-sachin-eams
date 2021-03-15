@@ -1,0 +1,13 @@
+copy 1.jsx  Header.jsx
+copy 1.jsx  Footer.jsx
+copy 1.jsx  Index.jsx
+copy 1.jsx  Admin.jsx
+copy 1.jsx  Faculty.jsx
+copy 1.jsx  Student.jsx
+copy 1.jsx  Courses.jsx
+copy 1.jsx  Slots.jsx
+copy 1.jsx  Batch.jsx
+copy 1.jsx  Planner.jsx
+copy 1.jsx  Attendance.jsx
+copy 1.jsx  Chart.jsx
+copy 1.jsx  Graph.jsx
